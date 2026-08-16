@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bebas+Neue&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Metal+Mania&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: chartreuse;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados::-webkit-outer-spin-button,
+.dados::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.dados:focus {
+    /* outline: none; */
+    border-color: black;
+}
+
+.dados {
+    background-color: burlywood;
+    border-radius: 0px 8px 8px 0px;
+    width: 16rem;
+    height: 2rem;
+    margin: 1rem;
+    padding-left: 0.6rem
+}
+
+div {
+    display: block;
+}
+
+#resultado {
+    margin: 0.6rem;
+}
+
+/* section {
+   background-image: url("https://t4.ftcdn.net/jpg/11/56/58/41/360_F_1156584167_WNpMNc1ZLePiUSp2cj1Q4qExZnpLXW85.jpg");
+   background-repeat: no-repeat;
+} */
